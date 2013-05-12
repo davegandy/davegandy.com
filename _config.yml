@@ -1,0 +1,38 @@
+safe:             false
+auto:             true
+server:           true
+server_port:      7994
+baseurl:          /  # Where GitHub serves the project up from
+url:              http://localhost:7994
+
+source:           source
+destination:      _gh_pages
+plugins:          source/_plugins
+
+pygments:         true
+
+title:            Dave Gandy
+tagline:          designer at Kyruus, creator of Font Awesome, etc.
+author:
+  name:           Dave Gandy
+  company:
+    name:         Kyruus
+    url:          http://kyruus.com
+  github:
+    handle:       davegandy
+    url:          http://github.com/davegandy
+  twitter:
+    handle:       byscuits
+    url:          http://twitter.com/byscuits
+
+bootstrap:
+  version:        2.3.1
+font_awesome:
+  version:        3.1.1
+  url:            http://fontawesome.io
+jquery:
+  version:        1.9.1
+google_analytics:
+  tracking_id:    UA-40821077-1
+typekit:
+  embed_code:     kja6hqu
