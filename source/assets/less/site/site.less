@@ -9,7 +9,7 @@
 a { font-weight: @bold-weight; }
 
 .navbar {
-  margin-bottom: 80px;
+  margin-bottom: 60px;
   .navbar-inner {
     .box-shadow(none);
     border-bottom-color: @navbarBorder;
@@ -82,4 +82,20 @@ footer {
   font-size: @fontSizeLarge;
   line-height: 1.75em;
   p { margin-bottom: 1.25em; }
+}
+
+nav {
+  text-align: center;
+  font-size: 70px;
+  line-height: 70px;
+  a {
+    padding-top: 130px;
+    padding-bottom: 130px;
+    display: block;
+    color: @grayLighter;
+    &:hover {
+      color:@grayLight;
+      text-decoration: none;
+    }
+  }
 }

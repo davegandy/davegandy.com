@@ -208,7 +208,7 @@ body {
   font-family: proxima-nova, "Helvetica Neue", Helvetica, Arial, sans-serif;
   font-size: 14px;
   line-height: 20px;
-  color: #777777;
+  color: #5e5e5e;
   background-color: #ffffff;
 }
 a {
@@ -1401,7 +1401,7 @@ select:focus:invalid:focus {
 }
 .help-block,
 .help-inline {
-  color: #9d9d9d;
+  color: #848484;
 }
 .help-block {
   display: block;
@@ -6276,7 +6276,7 @@ a {
   font-weight: 700;
 }
 .navbar {
-  margin-bottom: 80px;
+  margin-bottom: 60px;
 }
 .navbar .navbar-inner {
   -webkit-box-shadow: none;
@@ -6356,4 +6356,19 @@ footer ul.inline > li > a {
 }
 .post p {
   margin-bottom: 1.25em;
+}
+nav {
+  text-align: center;
+  font-size: 70px;
+  line-height: 70px;
+}
+nav a {
+  padding-top: 130px;
+  padding-bottom: 130px;
+  display: block;
+  color: #eeeeee;
+}
+nav a:hover {
+  color: #999999;
+  text-decoration: none;
 }
