@@ -1,0 +1,21 @@
+<div class="navbar navbar-static-top hidden-print">
+  <div class="navbar-inner">
+    <div class="container">
+      <a class="brand" href="{{ site.baseurl }}"><i class="icon-rocket icon-large"></i>&nbsp; Blog Awesome</a>
+      <p class="navbar-text pull-left">
+        Font Awesome news, tips, and tricks
+      </p>
+      <!--<a class="brand" href="{{ site.baseurl }}"><span class="logo">DG</span> {{ site.title }}</a>-->
+      <!--<p class="navbar-text pull-left">-->
+        <!--creator of <a href="{{ site.font_awesome.url }}">Font Awesome</a>,-->
+        <!--designer at <a href="{{ site.author.company.url }}">{{ site.author.company.name }}</a>, etc.-->
+      <!--</p>-->
+      <ul class="nav navbar-nav pull-right">
+        <li{% if page.navbar_active == "articles" %} class="active"{% endif %}><a href="{{ site.baseurl }}articles">Articles</a></li>
+        <li><a href="{{ site.author.twitter.url }}">Twitter</a></li>
+        <li><a href="{{ site.author.github.url }}">GitHub</a></li>
+        <li><a href="{{ site.author.email }}">Email</a></li>
+      </ul>
+    </div>
+  </div>
+</div>

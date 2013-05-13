@@ -1,12 +1,18 @@
 // Font Awesome overrides
 
-@FontAwesomePath:           "../../font/font-awesome-3.1.1";
+@FontAwesomePath:         "../../font/font-awesome-3.1.1";
 
 
 // Bootstrap overrides
-@sansFontFamily:            proxima-nova, "Helvetica Neue", Helvetica, Arial, sans-serif;
-@navbarHeight:              100px;
-@navbarBackground:          #fff;
+@sansFontFamily:          proxima-nova, "Helvetica Neue", Helvetica, Arial, sans-serif;
+@altFontFamily:           proxima-nova-sc-osf-ext-cond, "Helvetica Neue", Helvetica, Arial, sans-serif;
+@navbarHeight:            100px;
+@navbarBackground:        #fff;
+@navbarBorder:            @grayLighter;
+@navbarText:              #bbb;
+@linkColor:               @gray;
+@linkColorHover:          @grayDarker;
+@textColor:               mix(@gray, @white, 95%);
 
 
 // Site variables
@@ -15,8 +21,20 @@
 @bold-weight:             700;
 @bolder-weight:           800;
 @XLFontSize:              @baseFontSize * 2; // ~28px
-@navbarBorder:            @grayLighter;
-@linkColor:               @gray;
-@linkColorHover:          @grayDarker;
-@textColor:               mix(@gray, @white, 95%);
-@altFontFamily:           proxima-nova-sc-osf-ext-cond, "Helvetica Neue", Helvetica, Arial, sans-serif;
+
+
+// red navbar
+//@navbar-base:               #9d261d;
+//@navbar-mix:                @white;
+//@navbarBackgroundHighlight: @navbar-base;
+//@navbarBackground:          @navbar-base;
+//@navbarBorder:              darken(@navbar-base, 10%);
+//
+//@navbarText:                      mix(@navbar-base, @navbar-mix, 50%);
+//@navbarLinkColor:                 mix(@navbar-base, @navbar-mix, 20%);
+//@navbarLinkColorHover:            mix(@navbar-base, @navbar-mix, 0%);
+//@navbarLinkColorActive:           mix(@navbar-base, @navbar-mix, 0%);
+//@navbarLinkBackgroundHover:       transparent;
+//@navbarLinkBackgroundActive:      darken(@navbarBackground, 5%);
+//
+//@navbarBrandColor:                @navbarLinkColor;

@@ -37,23 +37,28 @@ a { font-weight: @bold-weight; }
 
 .navbar-text {
   line-height: @navbarHeight;
-  &, a { color: @text-muted; }
+  &, a { color: @navbarText; }
   a {
+//    font-weight: normal;
     padding-top: 40px;
     padding-bottom: 40px;
-    &:hover { color: @gray; }
+//    text-decoration: underline;
+    &:hover { color: @navbarLinkColorHover; }
   }
 }
 
 footer {
-  border-top: solid 1px @grayLighter;
-  color: @text-muted;
+  border-top: solid 1px @navbarBorder;
+  background-color: @navbarBackground;
+  color: @navbarText;
   ul.inline {
     margin-bottom: 0;
     li + li:before { content: "\00B7\00A0\00A0\00A0\00A0"; }
     > li > a {
+      color: @navbarLinkColor;
       padding-top: 40px;
       padding-bottom: 40px;
+      &:hover { @navbarLinkColorHover; }
     }
   }
 }
@@ -62,7 +67,7 @@ footer {
 // blog post styles
 .post {
   .datetime {
-    font-size: @baseFontSize;
+    font-size: @fontSizeSmall;
     color: #bbb;
     text-transform: uppercase;
 //    margin-bottom: 0;
@@ -75,7 +80,7 @@ footer {
     font-weight: 700;
     font-size: 50px;
     line-height: .9em;
-    font-style: italic;
+//    font-style: italic;
     text-align: center;
   }
   text-align: justify;

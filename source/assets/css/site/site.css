@@ -3292,7 +3292,7 @@ input[type="submit"].btn.btn-mini {
 .navbar-text {
   margin-bottom: 0;
   line-height: 100px;
-  color: #777777;
+  color: #bbbbbb;
 }
 .navbar-link {
   color: #777777;
@@ -6318,10 +6318,11 @@ a {
   padding-bottom: 40px;
 }
 .navbar-text a:hover {
-  color: #555555;
+  color: #333333;
 }
 footer {
   border-top: solid 1px #eeeeee;
+  background-color: #ffffff;
   color: #bbbbbb;
 }
 footer ul.inline {
@@ -6331,16 +6332,18 @@ footer ul.inline li + li:before {
   content: "\00B7\00A0\00A0\00A0\00A0";
 }
 footer ul.inline > li > a {
+  color: #777777;
   padding-top: 40px;
   padding-bottom: 40px;
 }
+@navbar LinkColorHover;
 .post {
   text-align: justify;
   font-size: 17.5px;
   line-height: 1.75em;
 }
 .post .datetime {
-  font-size: 14px;
+  font-size: 11.9px;
   color: #bbb;
   text-transform: uppercase;
   text-align: center;
@@ -6351,7 +6354,6 @@ footer ul.inline > li > a {
   font-weight: 700;
   font-size: 50px;
   line-height: .9em;
-  font-style: italic;
   text-align: center;
 }
 .post p {
